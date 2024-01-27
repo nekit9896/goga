@@ -1,6 +1,6 @@
 # Лямбда функции (анонимные функции)
 # Как создать:
-l = lambda x, y: x ** y
+l = lambda x, y: x**y
 res = l(5, 5)
 print(res)
 

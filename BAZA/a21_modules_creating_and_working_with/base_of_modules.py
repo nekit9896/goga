@@ -8,6 +8,7 @@ import time
 import datetime as d  # можно сделать алиас названия библиотеки, в данном случае 'd'
 import sys  # если нужно получить/использовать информацию о пользователе
 import os, platform
+
 # print(d.datetime.now())
 # time.sleep(3)
 print(d.datetime.now().date().weekday())
@@ -20,9 +21,10 @@ print(platform.system())  # название операционки
 import my_own_module
 from my_own_module import three_numbers
 
-my_own_module.hi('Nikita')
+my_own_module.hi("Nikita")
 print(three_numbers(3, 5, 7))
 
 # Импорт собственного модуля из другого репозитория
 from BAZA.a19_try_except.try_except import razdelitel
+
 razdelitel()
