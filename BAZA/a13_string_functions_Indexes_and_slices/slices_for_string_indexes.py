@@ -5,7 +5,7 @@ print(word[0:4])
 print(word[4:8])  # указывает стартовый и конечный элемент
 
 # можно указать шаг
-print(word[0:-1:4])
+print(word[0:-1:4])  # word[start:stop:step]
 
 # вывести до конца с энного элемента
 print(word[2:])
