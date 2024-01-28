@@ -1,8 +1,6 @@
 import unittest
 
-import pytest
-
-from BAZA.leetcode_progs.twoSum import Solution
+from leetcode_progs.twoSum import Solution
 
 
 class TestsUnittest(unittest.TestCase):
